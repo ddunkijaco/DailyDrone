@@ -1,0 +1,53 @@
+body
+{
+    text-align:center;
+    background-color: rgb(28, 28, 28);
+}
+
+#head
+{
+    color: #ffffff;
+    font-size:30px
+}
+
+a
+{
+    color: #ffffff;
+}
+
+.roundimg {
+border-radius: 15px;
+}
+
+.show
+{
+    background: #000000;
+    color: #ffffff;
+    width:758px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    border-radius:25px;
+}
+
+.title, .airtime, .overview
+{
+    padding:5px
+}
+
+.title
+{
+    font-size:30px
+}
+
+.airtime
+{
+    font-size:20px
+}
+
+.overview
+{
+    font-size: 14px;
+}
