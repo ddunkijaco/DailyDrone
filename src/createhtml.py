@@ -43,7 +43,6 @@ def createPage(droneurl):
     try:
         response = urlopen(req)
     except HTTPError as e:
-        return 'HTTPError: ', e.code
         page.div('HTTPError:' + str(e.code),class_="show")
         writeout(config.get('output', 'filename') + '.html',str(page))  
     except URLError as e:
